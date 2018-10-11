@@ -1,0 +1,15 @@
+{
+  "name": "my-rocket-kit",
+  "version": "1.0.0",
+  "description": "Alexa skill to build virtual model rockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Foster",
+  "license": "SEE LICENSE IN license.md",
+  "dependencies": {
+    "ask-sdk": "2.0.7",
+    "lodash": "4.17.10"
+  }
+}

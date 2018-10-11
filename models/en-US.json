@@ -1,0 +1,676 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "my rocket kit",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "BuildRocket",
+                    "slots": [
+                        {
+                            "name": "NumberOfFins",
+                            "type": "NumberOfFins",
+                            "samples": [
+                                "{NumberOfFins}"
+                            ]
+                        },
+                        {
+                            "name": "NoseConeShape",
+                            "type": "NoseConeShape",
+                            "samples": [
+                                "{NoseConeShape}"
+                            ]
+                        },
+                        {
+                            "name": "Color",
+                            "type": "Color",
+                            "samples": [
+                                "{Color}"
+                            ]
+                        },
+                        {
+                            "name": "Stickers",
+                            "type": "Stickers",
+                            "samples": [
+                                "{Stickers}"
+                            ]
+                        },
+                        {
+                            "name": "NumberOfWindows",
+                            "type": "NumberOfWindows",
+                            "samples": [
+                                "{NumberOfWindows}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "design a rocket",
+                        "build a rocket",
+                        "make a rocket",
+                        "I want to design a rocket",
+                        "design rocket",
+                        "make rocket",
+                        "build rocket",
+                        "I want to build a rocket",
+                        "I want to make a rocket",
+                        "Let's build a rocket",
+                        "I would like to design a rocket",
+                        "I would like to build a rocket"
+                    ]
+                },
+                {
+                    "name": "LaunchRocket",
+                    "slots": [
+                        {
+                            "name": "Countdown",
+                            "type": "Countdown",
+                            "samples": [
+                                "{Countdown}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "{Countdown} ignition",
+                        "{Countdown} liftoff",
+                        "{Countdown}",
+                        "{Countdown} blastoff",
+                        "blastoff",
+                        "Launch",
+                        "Liftoff",
+                        "Ignition",
+                        "Launch the rocket",
+                        "Launch my rocket",
+                        "Launch rocket"
+                    ]
+                },
+                {
+                    "name": "Reset",
+                    "slots": [
+                        {
+                            "name": "ConfirmReset",
+                            "type": "ConfirmReset",
+                            "samples": [
+                                "{ConfirmReset}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "reset my progress",
+                        "reset my data",
+                        "reset"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "RocketFact",
+                    "slots": [],
+                    "samples": [
+                        "rocket fact",
+                        "tell me something about rockets",
+                        "get fact",
+                        "tell me a rocket fact",
+                        "give me a rocket fact",
+                        "Get rocket fact"
+                    ]
+                },
+                {
+                    "name": "RocketInfo",
+                    "slots": [],
+                    "samples": [
+                        "get rocketry information",
+                        "get rocket information",
+                        "rocketry information",
+                        "rocketry info",
+                        "rocket info",
+                        "get rocketry resources",
+                        "get rocketry info",
+                        "get rocket info"
+                    ]
+                },
+                {
+                    "name": "Safety",
+                    "slots": [],
+                    "samples": [
+                        "get next safety code",
+                        "get next code",
+                        "safetycode",
+                        "get safety codes",
+                        "safety codes",
+                        "safety code",
+                        "get safety rules",
+                        "get nar safety code",
+                        "get safety code",
+                        "get safety",
+                        "safety"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "NumberOfFins",
+                    "values": [
+                        {
+                            "id": "five",
+                            "name": {
+                                "value": "Five",
+                                "synonyms": [
+                                    "5 fins",
+                                    "5",
+                                    "five fins"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "four",
+                            "name": {
+                                "value": "Four",
+                                "synonyms": [
+                                    "4 fins",
+                                    "4",
+                                    "four fins"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "three",
+                            "name": {
+                                "value": "Three",
+                                "synonyms": [
+                                    "3 fins",
+                                    "3",
+                                    "three fins"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "NoseConeShape",
+                    "values": [
+                        {
+                            "id": "pointed",
+                            "name": {
+                                "value": "Pointed",
+                                "synonyms": [
+                                    "a pointed one please",
+                                    "pointed please",
+                                    "make it a pointed one",
+                                    "a pointed one"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "rounded",
+                            "name": {
+                                "value": "Rounded",
+                                "synonyms": [
+                                    "a rounded one please",
+                                    "rounded please",
+                                    "make it a rounded one",
+                                    "a rounded one"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Stickers",
+                    "values": [
+                        {
+                            "id": "dinosaurs",
+                            "name": {
+                                "value": "Dinosaurs",
+                                "synonyms": [
+                                    "dinos"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "none",
+                            "name": {
+                                "value": "None",
+                                "synonyms": [
+                                    "no stickers please",
+                                    "0",
+                                    "zero",
+                                    "no stickers"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "unicorns",
+                            "name": {
+                                "value": "Unicorns"
+                            }
+                        },
+                        {
+                            "id": "stars",
+                            "name": {
+                                "value": "Stars"
+                            }
+                        },
+                        {
+                            "id": "polkadots",
+                            "name": {
+                                "value": "Polka Dots"
+                            }
+                        },
+                        {
+                            "id": "stripes",
+                            "name": {
+                                "value": "Stripes"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Countdown",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "10 9 8 7 6 5 4 3 2 1",
+                                "synonyms": [
+                                    "3 2 1",
+                                    "three two one",
+                                    "5 4 3 2 1",
+                                    "five four three two one",
+                                    "ten nine eight seven six five four three two one"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "NumberOfWindows",
+                    "values": [
+                        {
+                            "id": "none",
+                            "name": {
+                                "value": "none",
+                                "synonyms": [
+                                    "no windows",
+                                    "0",
+                                    "zero"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "five",
+                            "name": {
+                                "value": "five",
+                                "synonyms": [
+                                    "5"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "four",
+                            "name": {
+                                "value": "four",
+                                "synonyms": [
+                                    "4"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "three",
+                            "name": {
+                                "value": "three",
+                                "synonyms": [
+                                    "3"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "two",
+                            "name": {
+                                "value": "two",
+                                "synonyms": [
+                                    "2"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "one",
+                            "name": {
+                                "value": "one",
+                                "synonyms": [
+                                    "1"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Color",
+                    "values": [
+                        {
+                            "id": "orange",
+                            "name": {
+                                "value": "orange"
+                            }
+                        },
+                        {
+                            "id": "black",
+                            "name": {
+                                "value": "black"
+                            }
+                        },
+                        {
+                            "id": "white",
+                            "name": {
+                                "value": "white"
+                            }
+                        },
+                        {
+                            "id": "green",
+                            "name": {
+                                "value": "green"
+                            }
+                        },
+                        {
+                            "id": "yellow",
+                            "name": {
+                                "value": "yellow"
+                            }
+                        },
+                        {
+                            "id": "pink",
+                            "name": {
+                                "value": "pink"
+                            }
+                        },
+                        {
+                            "id": "red",
+                            "name": {
+                                "value": "red"
+                            }
+                        },
+                        {
+                            "id": "purple",
+                            "name": {
+                                "value": "purple"
+                            }
+                        },
+                        {
+                            "id": "blue",
+                            "name": {
+                                "value": "blue"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "ConfirmReset",
+                    "values": [
+                        {
+                            "id": "no",
+                            "name": {
+                                "value": "no",
+                                "synonyms": [
+                                    "nope"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "yes",
+                            "name": {
+                                "value": "yes",
+                                "synonyms": [
+                                    "yep"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "BuildRocket",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "NumberOfFins",
+                            "type": "NumberOfFins",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.669983000330.517670411672"
+                            }
+                        },
+                        {
+                            "name": "NoseConeShape",
+                            "type": "NoseConeShape",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.669983000330.1312682369848"
+                            }
+                        },
+                        {
+                            "name": "Color",
+                            "type": "Color",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1142869440732.1048842480490"
+                            }
+                        },
+                        {
+                            "name": "Stickers",
+                            "type": "Stickers",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1142869440732.1011817242119"
+                            }
+                        },
+                        {
+                            "name": "NumberOfWindows",
+                            "type": "NumberOfWindows",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.304826428584.587643935419"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LaunchRocket",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "Countdown",
+                            "type": "Countdown",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.991972281474.315179400769"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Reset",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "ConfirmReset",
+                            "type": "ConfirmReset",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.988656583608.890159963865"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.669983000330.1312682369848",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Would you like your rocket to have a pointed nose cone or a rounded one?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.669983000330.517670411672",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Your rocket can have three to five fins.  How many would you like?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1142869440732.253604315105",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "You follow the instructions in your kit to build your rocket.  First you glue a clip to hold the motor in the base of the body and a small tube on the outside of the body called a launch lug.  Next, you glue the fins to the base of the body.  You then tie one end of a thin rubber strap called a shock cord to a screw in the nose cone and glue the other end to the inside of the body near the top.  You attach the string of the parachute to the nose cone screw to complete the recovery system.  Your rocket is assembled and now it is time to paint it.  What color do you want to paint the nose cone?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1142869440732.725151286123",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "The body of your rocket is made of a paper tube.  Would you like to use a narrow or wide tube?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1142869440732.1011817242119",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "You can decorate your rocket with stickers.  Would you like stripes, polka dots, stars, unicorns, dinosaurs, or no stickers?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1142869440732.1048842480490",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Do you want to make your rocket red, orange, pink, yellow, green, blue, purple, or white?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1142869440732.234193530507",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What color do you want to paint the fins?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.304826428584.587643935419",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Your rocket can have zero to five windows.  How many would you like?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.701477362437.398885431986",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "To launch your rocket, count down from five starting now."
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.988656583608.890159963865",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "If you reset, your progress will be lost and you will start over.  Are you sure you want to reset?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.991972281474.315179400769",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Countdown from five to launch your rocket"
+                    }
+                ]
+            }
+        ]
+    }
+}
